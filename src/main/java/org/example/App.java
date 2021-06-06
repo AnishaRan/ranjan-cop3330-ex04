@@ -11,16 +11,16 @@ public class App
 
         Scanner in = new Scanner(System.in);
 
-        System.out.printf("Enter a noun: ");
+        System.out.print("Enter a noun: ");
         String noun = in.nextLine();
 
-        System.out.printf("Enter a verb: ");
+        System.out.print("Enter a verb: ");
         String verb = in.nextLine();
 
-        System.out.printf("Enter an adjective: ");
+        System.out.print("Enter an adjective: ");
         String adj = in.nextLine();
 
-        System.out.printf("Enter an adverb: ");
+        System.out.print("Enter an adverb: ");
         String adv = in.nextLine();
 
         System.out.printf("Do you %s your %s %s %s? That's hilarious!", verb, adj, noun, adv);
